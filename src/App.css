@@ -1,0 +1,173 @@
+article {
+  background-color: white;
+  width: 60vh;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: 0.8s;
+  flex-wrap: wrap;
+}
+
+article:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 12vh;
+}
+
+.temperature {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.split-humidity,
+.humidity {
+  text-align: center;
+}
+
+.seaLevelContainer {
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.mainTitle {
+  color: white;
+}
+
+.formContainer {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 50vh;
+  height: 30px;
+  border: 0;
+  background-color: inherit;
+  border-bottom: white solid thin;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 0px;
+  border-spacing: 100px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.8s;
+  width: 15vh;
+  height: 50px;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: #efefef;
+}
+
+.cardTitle {
+  color: #53627c;
+  font-weight: 800;
+}
+
+.countryContainer {
+  background-color: #ff8c00;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0;
+  font-size: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.country {
+  padding: 0;
+  margin: 0;
+}
+
+.weatherDescription {
+  font-weight: 300;
+  color: #53627c;
+}
+
+.temperature {
+  color: #1e2432;
+  font-size: 50px;
+  
+  margin: 0;
+}
+
+.miscData {
+  color: #53627c;
+  font-weight: 600;
+}
+
+span {
+  font-weight: 600;
+  color: #1e2432;
+}
+
+p {
+  font-weight: 600;
+  color: #53627c;
+}
